@@ -1,0 +1,19 @@
+<svg width="1440" height="77" viewBox="0 0 1440 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.9" filter="url(#filter0_b_86_919)">
+<rect width="1440" height="77" fill="white"/>
+<rect x="0.5" y="0.5" width="1439" height="76" stroke="#4D4D4D"/>
+</g>
+<line x1="179.5" y1="2.18557e-08" x2="179.5" y2="77" stroke="#4D4D4D"/>
+<line x1="1369.5" y1="2.18557e-08" x2="1369.5" y2="77" stroke="#4D4D4D"/>
+<line x1="1300.5" y1="2.18557e-08" x2="1300.5" y2="77" stroke="#4D4D4D"/>
+<line x1="1231.5" y1="2.18557e-08" x2="1231.5" y2="77" stroke="#4D4D4D"/>
+<line x1="1162.5" y1="2.18557e-08" x2="1162.5" y2="77" stroke="#4D4D4D"/>
+<defs>
+<filter id="filter0_b_86_919" x="-50" y="-50" width="1540" height="177" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="25"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_86_919"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_86_919" result="shape"/>
+</filter>
+</defs>
+</svg>

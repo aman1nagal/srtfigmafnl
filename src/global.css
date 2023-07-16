@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-inter: Inter;
+  --font-krona-one: "Krona One";
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-16xl: 35px;
+  --font-size-base: 16px;
+  --font-size-3xl: 22px;
+  --font-size-smi: 13px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-99xl: 118px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray-100: #676767;
+  --color-dimgray-200: #4d4d4d;
+  --color-dimgray-300: rgba(103, 103, 103, 0.35);
+  --color-gray-100: #959494;
+  --color-gray-200: #8c8c8c;
+  --color-gray-300: rgba(0, 0, 0, 0.03);
+  --color-gainsboro-100: #e0e0e0;
+  --color-whitesmoke: #eee;
+  --color-black: #000;
+  --color-darkgray: #adadad;
+  --color-darkslategray: #393939;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+
+  /* border radiuses */
+  --br-11xs-5: 1.5px;
+  --br-xs: 12px;
+  --br-12xs: 1px;
+  --br-11xs: 2px;
+  --br-32xl: 51px;
+  --br-111xl: 130px;
+  --br-115xl: 134px;
+}
