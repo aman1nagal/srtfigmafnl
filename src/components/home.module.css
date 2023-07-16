@@ -1,18 +1,20 @@
 .heroSectionChild {
+  /* background-color: red; */
   position: absolute;
   top: 485.79px;
-  left: calc(50% - 1115.17px);
-  width: 1920px;
+  /* left: calc(50% - 1115.17px); */
+  width: 1910px;
   height: 927.21px;
 }
 .imgIcon {
   /* background-color: red; */
-  transform: rotate(180deg);
+  /* transform: rotate(-128.82°); */
+  transform:rotate(-146.82deg);
   position: absolute;
   top: 44px;
   left: 705px;
-  width: 1525.34px;
-  height: 1561.26px;
+  width: 1599.34px;
+  height: 1461.26px;
 }
 .getInTouch,
 .groupChild {
@@ -124,8 +126,9 @@
 .heroSection {
   position: absolute;
   top: -484px;
-  left: calc(50% - 960px);
-  width: 2230.34px;
+  /* left: calc(50% - 960px);
+  background-color: red; */
+  width: 2430.34px;
   height: 1561.26px;
   color: var(--color-dimgray-200);
 }
@@ -218,11 +221,12 @@
   width: 50px;
   height: 4px;
 }
+
 .groupContainer {
-  background-color: red;
+  /* background-color: red; */
   position: absolute;
   top: 63px;
-  left: 38rem;
+  left: 15rem;
   width: 1440px;
   height: 77px;
 }
@@ -271,7 +275,8 @@
 .infodinjanin3013 {
   position: absolute;
   top: 0;
-  left: 20px;
+  /* right: 20px; */
+  left: 35px;
 }
 .groupChild4 {
   top: 3.9px;
@@ -280,6 +285,7 @@
   height: 17.2px;
 }
 .infodinjanin3013CentralParent {
+  /* background-color: red; */
   position: absolute;
   top: 9px;
   left: 240px;
@@ -375,6 +381,7 @@
   font-size: var(--font-size-3xl);
   font-weight: 500;
   font-family: var(--font-poppins);
+
 }
 .homeAboutUsBuyYarnContactParent {
   position: absolute;
@@ -1119,15 +1126,15 @@
   height: 572px;
 }
 .groupChild23 {
-  height: 100%;
-  width: 49.19%;
+  height: 60%;
+  width: 30%;
   top: 0;
   right: 50.81%;
   bottom: 0;
   left: 0;
   max-width: 100%;
   overflow: hidden;
-  max-height: 100%;
+  /* max-height: 100%; */
   object-fit: cover;
 }
 .aboutUs2 {
@@ -1218,11 +1225,21 @@
   text-align: center;
   color: var(--color-dimgray-200);
 }
-.groupParent8,
-.groupParent9 {
+.groupParent8
+{
+  /* background-color: red; */
   position: absolute;
+  margin-top: -2rem;
+  margin-left: 2rem ;
   top: 171px;
   left: 823px;
+  width: 651px;
+  height: 432px;
+}
+.groupParent9 {
+  position: absolute;
+  top: 41px;
+  left: 723px;
   width: 651px;
   height: 432px;
 }
@@ -2792,10 +2809,10 @@
 .home {
   /* background-color: red; */
   position: relative;
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
   /* width: 1420px; */
-  width: 180rem;
-  height: 4439px;
+  width:100%;
+  height: 6440px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);

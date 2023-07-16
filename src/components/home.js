@@ -173,10 +173,10 @@ const Home = () => {
           </div>
           <div className={styles.infodinjanin3013CentralParent}>
             <div className={styles.infodinjanin3013}>
-              99983 91283 | info@dinjan.in | 3013, Central Bazzar, Varachha Main
+              99983 91283 |&nbsp;&nbsp; &nbsp;&nbsp;info@dinjan.in | 3013, Central Bazzar, Varachha Main
               Road, Surat.395006
             </div>
-            <img className={styles.groupChild4} alt="" src={group_140} />
+            {/* <img className={styles.groupChild4} alt="" src={group_140} /> */}
           </div>
         </div>
       </div>
@@ -301,11 +301,11 @@ const Home = () => {
               <div className={styles.quotationParent}>
                 <div className={styles.quotation}>Quotation</div>
                 <div className={styles.quotation1}>
-                  <img
+                  {/* <img
                     className={styles.vectorIcon2}
                     alt=""
                     src={vector2}
-                  />
+                  /> */}
                   <img
                     className={styles.vectorIcon3}
                     alt=""
@@ -432,9 +432,8 @@ const Home = () => {
             <div className={styles.aboutUs2}>About Us</div>
             <div className={styles.groupInner} />
           </div>
-          <div
-            className={styles.theBestSolution}
-          >{`The Best Solution for all Industrial & Factory Businesses`}</div>
+          <div className={styles.theBestSolution}>
+            {`The Best Solution for all Industrial & Factory Businesses`}</div>
           <div className={styles.buildTrustWhereverContainer}>
             <ul className={styles.homeAboutUsBuyYarnContact}>
               <li className={styles.buyYarn}>
