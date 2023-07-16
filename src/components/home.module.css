@@ -605,7 +605,7 @@
   height: 124px;
 }
 .footer {
-  top: 5892px;
+  top: 5492px;
   left: calc(50% - 960px);
   width: 1920px;
   height: 548px;
@@ -1631,7 +1631,7 @@
   height: 248.15px;
 }
 .groupParent10 {
-  top: 3157px;
+  top: 2800px;
   left: 240px;
   width: 1439.19px;
   height: 316px;
@@ -1914,7 +1914,7 @@
 }
 .groupParent16 {
   position: absolute;
-  top: 4507px;
+  top: 4107px;
   left: -525px;
   width: 2911px;
   height: 460px;
@@ -2015,7 +2015,7 @@
 }
 .rectangleParent15 {
   position: absolute;
-  top: 4228px;
+  top: 3828px;
   left: -1px;
   width: 1920px;
   height: 179px;
@@ -2174,7 +2174,7 @@
 }
 .groupParent22 {
   position: absolute;
-  top: 5067px;
+  top: 4687px;
   left: 240px;
   width: 1440px;
   height: 725px;
@@ -2431,7 +2431,7 @@
 }
 .groupParent25 {
   position: absolute;
-  top: 2492px;
+  top: 2150px;
   left: 240px;
   width: 1442px;
   height: 564.8px;
@@ -2789,6 +2789,7 @@
 }
 .groupParent29,
 .groupParent35 {
+  /* background-color: rgb(230, 216, 65); */
   position: absolute;
   top: 0;
   left: 385px;
@@ -2798,7 +2799,7 @@
   color: var(--color-gray-200);
 }
 .groupParent29 {
-  top: 3573px;
+  top: 3193px;
   left: 241px;
   width: 1441px;
   height: 555px;
@@ -2807,12 +2808,11 @@
   color: var(--color-dimgray-200);
 }
 .home {
-  /* background-color: red; */
   position: relative;
-  /* background-color: var(--color-white); */
+  background-color: var(--color-white);
   /* width: 1420px; */
   width:100%;
-  height: 6440px;
+  height: 6040px;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
