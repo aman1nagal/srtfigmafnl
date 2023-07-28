@@ -36,3 +36,175 @@
     transform: rotate(360deg);
   }
 }
+.grid-container {
+  display: flex;
+  /* background-color: red; */
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(4,1fr); /* You can adjust the number of columns here */
+  gap: 0px; /* Add spacing between grid items */
+}
+.vertical-line {
+  border-left: 1px solid black;
+  height: 40px;
+  opacity: 0.1;
+}
+.user-cart {
+  /* background-color: blue; */
+  border: 1px solid #ccc;
+  width: 70%;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.user-cart h2,
+  .user-cart p {
+    margin-top: 0;
+    margin-left: -4px;
+  }
+.button{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  background-color:#d2d0d032;
+
+  /* border: 1px solid black; */
+  /* background-color: red */
+}
+.image-div{
+  width: 100%;
+  height: 10rem;
+  background-color:#c5c4c432;
+}
+.mail{
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin-top: 2px;
+  /* background-color: red; */
+}
+.mail p{
+  margin-left: 1rem;
+}
+
+.address{
+  display: flex;
+  margin-top: 2px;
+}
+.address p{
+  margin-left: 1rem;
+}
+.heading{
+  text-align: start;
+}
+.center_data{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.image{
+  width: 10rem;
+}
+.heart-button,
+  .pencil-button,
+  .delete-button {
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .modal {
+    display: none;
+  }
+  
+  .modal.open {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32rem;
+    height: 5rem;
+    /* margin: 20rem; */
+    margin-top: 20rem;
+    margin-left: 29rem;
+    background-color: #fff;
+    z-index: 951;
+  }
+  
+  .modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30rem;
+    height: 20rem;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal label {
+    /* background-color: red; */
+    margin: auto;
+    font-weight: bold;
+  }
+  
+  .modal input {
+    padding: 8px;
+    width: 20rem;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit{
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .name_div{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }.email_div{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }.phone_div{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }.website_div{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+.button_div{
+display: flex;
+flex-direction: row;
+justify-content: end;
+
+}
+.cancel{
+  margin-right:0.31rem;
+  background-color: white;
+}
